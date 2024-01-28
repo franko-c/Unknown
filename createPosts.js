@@ -22,7 +22,7 @@ function createPostHeader(post) {
 function createPostMain(post) {
     return `
         <div class='post-img'> 
-            <img src='${post.post}' alt=''>
+            <img src='${post.post}' alt='${post.comment}'>
             <div class='hover-stats'>
             </div>
         </div>
