@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+.post-header,
+.post-description,
+.post-buttons,
+.post-img,
+.divider
+ {
+  padding: 6px 16px;
+  background-color: rgb(245, 245, 245);
+}
+hr {
+  border: 0; /* Removes all borders */
+  height: 1px; /* Sets the height of the line */
+  background-color: #8ac6e3; /* Sets the color of the HR line */
+  width: 100%; /* Sets the width to full container width, adjust as necessary */
+}
+body {
+  max-width: 430px;
+  min-width: 375px;
+  margin: 0 auto;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+}
+
+/* Misc Styles */
+.divider {
+  display: block;
+  border-bottom: 1px solid rgb(179, 192, 206);
+  margin: 0 auto;
+}
+
+/* Feed Container Styles */
+.oldagram-feed {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2px;
+  padding: 0 0 80px 0;
+}
+/* Page Header Styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 12px 24px;
+}
+header h1 {
+  font-family: 'Pacifico', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 100;
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 2px rgb(182, 244, 255);
+}
+header img {
+  height: 40px;
+  border-radius: 50%;
+}
+
+/* Post Styles */
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.8rem;
+  padding: 6px 24px 6px 24px;
+}
+.post-header img {
+  width: 40px;
+  border-radius: 50%;
+  border: none;
+}
+.user-details * {
+  padding: 2px 0;
+  color: darkslategray;
+}
+
+/* Post Main/Image Styles */
+.post-img img {
+  width: 100%;
+  display: block;
+  border-radius: 5px;
+}
+
+/* Post Buttons */
+.post-buttons {
+  display: flex;
+  gap: 10px;
+}
+.post-buttons button {
+  background: none;
+  border: none;
+  transform: scale(1.1);
+}
+/* Fills the heart when clicked */
+.fill {
+  color: red;
+}
+i {
+  font-size: 18px;
+}
+
+/* Post Description/Likes Styles */
+.post-description {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.post-description span {
+  font-weight: 600;
+}
+.post-description .likes-label {
+  font-weight: 300;
+}
+.post-description p:first-of-type {
+  font-weight: 600;
+}
+
+/* User Post Comment */
+.user-comments {
+  display: flex;
+  align-items: flex-start;
+  font-size: 0.9rem;
+  line-height: 16px;
+  gap: 6px;
+}
+
+/* I didn't want to put individual selectors on the p tags here and so this seemed to do the trick */
+.user-comments p:first-of-type {
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+}
+.user-comments p:last-of-type {
+  font-weight: 300;
+}
