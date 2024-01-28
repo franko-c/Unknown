@@ -1,8 +1,6 @@
 import { renderPosts } from "./createPosts.js";
 import { fillHeart, selectPost, posts } from "./utility.js";
 
-
-
 // Main output container for posts
 const postOutput = document.querySelector(".oldagram-feed");
 
@@ -43,6 +41,7 @@ postOutput.addEventListener('click', function (event) {
   // userPost becomes linked to the closest parent element with the .user-post class; this will always be the container for each of our posts
   const userPost = clickedButton.closest('.user-post');
 
+  // Passes the values into the actionHandler object, in which functions are nested and called based on the action
   actionHandlers[action](clickedButton, userPost);
  
   console.log(clickedButton, action, userPost)
