@@ -57,7 +57,7 @@ export const posts = [
     },
   ];
 
-// Utility functions for adding and removing the fill effect on the heart
+// Utility function for adding and removing the fill effect on the heart
 export function fillHeart(button, liked) {
     if (!liked) {
         button.classList.remove('fa-regular')
