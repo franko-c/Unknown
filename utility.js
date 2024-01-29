@@ -28,7 +28,7 @@ export const posts = [
       username: "TheWirelessLife",
       location: "Taipei, Taiwan",
       avatar: "/images/avatars/keychron.png",
-      post: "/images/posts/k6.webp",
+      post: "/images/posts/ducky-one.jpg",
       alt: "Dummy alt-text to be modified in a later version of page.",
       comment: "Finally went wireless and I'm never going back 🙌 #KeychronK6",
       likes: 89,
