@@ -1,6 +1,6 @@
 # Keyboardgram Feed :camera:
 
-Hey there! Welcome to Keyboardgram, a project I have put together as part of the Scrimba Frontend Development Career Path. It's a mock social media feed where you can 'like' posts and see those likes tally up in real time. I spent way too much time on this mostly because I couldn't get properly into the last solo project and felt bad, but also, because mechanical keyboards are just so pretty. I mean, look at them. Neat, huh?
+Hey there! Welcome to Keyboardgram, a project I have put together as part of the Scrimba Frontend Development Career Path. It's a mock social media feed where you can 'like' posts and see those likes tally up in real time. I spent way too much time on this because mechanical keyboards are just so pretty. I mean, look at them. Neat, huh?
 
 ## What's Cooking? :sparkles:
 
@@ -25,7 +25,7 @@ Hey there! Welcome to Keyboardgram, a project I have put together as part of the
 - Let people add posts to the feed
 - Light/Dark mode toggle button
 
-Some of my personal stretch goals for this project were touched on in the Build a Mobile App section of the last module but I did not find myself settling well into the solo project. Despite thoroughly enjoying the section itself, and connecting with the instructor, I could not wrap my head around Firebase well enough to the point where I can boot a project file up and get it all up and running myself, so I was peeking a lot, after failing to get things working reading the docs, and I wasn't happy. 
+Some of my personal stretch goals for this project were touched on in the Build a Mobile App section of the last module, which I thouroughly enjoyed. Rashid is great and I connected well with his style of instruction, I would like to go back and watch that chapter again and implement some features into this project. 
 
 
 Connect with me on Discord: dar1en
